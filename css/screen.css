@@ -83,11 +83,17 @@ img{
   max-width:100%;
   height:auto;
 }
-
-#self-pic {
-  padding: 1em;
+footer{
+  margin-top: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
 }
-
+#self-pic {
+  padding-left: : 1em;
+  padding-right: 1em;
+  max-width: 80%;
+}
 #navigation {
   position: absolute;
   width: 100%;
@@ -100,7 +106,6 @@ img{
   float: left;
   width: 33.3333333333%;
 }
-
 #navigation a {
   display: block;
   width: 100%;
@@ -111,14 +116,11 @@ img{
   color: white;
   background-color: darkgreen;
 }
-
 #navigation ul,
 #navigation li {
   list-style-type: none;
   padding-bottom: 0;
 }
-
-
 /*
 @media screen and (min-width: 375px){
   body{
@@ -127,3 +129,7 @@ img{
   }
 }
 */
+#content {
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
