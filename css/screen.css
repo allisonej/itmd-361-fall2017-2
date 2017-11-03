@@ -82,6 +82,7 @@ video,
 img{
   max-width:100%;
   height:auto;
+  margin-right: 2em;
 }
 footer{
   margin-top: 15px;
@@ -89,10 +90,28 @@ footer{
   font-weight: bold;
   text-align: center;
 }
+main ul {
+    display: block;
+    list-style-type: disc;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+h2,
+h3 {
+  display: block;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  background-color: lightgreen;
+}
 #self-pic {
   padding-left: : 1em;
   padding-right: 1em;
-  max-width: 80%;
+  max-width: 100%;
+}
+#logo-img{
+  max-height: 5em;
 }
 #navigation {
   position: absolute;
@@ -132,4 +151,8 @@ footer{
 #content {
   display: grid;
   grid-template-columns: 33% 67%;
+}
+#content-list {
+  display: grid;
+  grid-template-columns: 35% 37% 28%;
 }
