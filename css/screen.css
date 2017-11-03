@@ -93,10 +93,6 @@ footer{
 main ul {
     display: block;
     list-style-type: disc;
-    margin-top: 0;
-    margin-bottom: 1 em;
-    margin-left: 0;
-    margin-right: 0;
     padding-left: 40px;
 }
 h2,
@@ -107,11 +103,12 @@ h3 {
   background-color: lightgreen;
 }
 #self-pic {
-  padding-left: : 1em;
+  padding-left: 1em;
   padding-right: 1em;
   max-width: 100%;
 }
-#logo-img{
+#iitlogo,
+#swulogo{
   max-height: 5em;
 }
 #navigation {
